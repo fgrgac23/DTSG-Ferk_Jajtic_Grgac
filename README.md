@@ -23,21 +23,21 @@ Git repozitorij promatramo kao matematičku strukturu: usmjereni aciklički graf
 ## Plan
 
 ### Mini-git
-- [ ] `init`, `hash-object`, `cat-file` - spremanje i čitanje objekata
-- [ ] `write-tree`, `commit` - snimke i Merkle struktura
-- [ ] `branch`, `checkout`, `log` - reference i obilazak grafa
-- [ ] `merge-base`, `merge` (fast-forward i trosmjerni)
-- [ ] `log A..B` - razlika skupova predaka
-- [ ] `cherry-pick`, `rebase`
-- [ ] simulirani `clone` / `fetch` između lokalnih repozitorija
-- [ ] testovi kompatibilnosti s pravim Gitom
+- `init`, `hash-object`, `cat-file` - spremanje i čitanje objekata
+- `write-tree`, `commit` - snimke i Merkle struktura
+- `branch`, `checkout`, `log` - reference i obilazak grafa
+- `merge-base`, `merge` (fast-forward i trosmjerni)
+- `log A..B` - razlika skupova predaka
+- `cherry-pick`, `rebase`
+- simulirani `clone` / `fetch` između lokalnih repozitorija
+- testovi kompatibilnosti s pravim Gitom
 
 ### Vizualizacija
-- [ ] čitanje grafa commitova iz `.git` direktorija
-- [ ] slojeviti raspored (Sugiyamin okvir)
-- [ ] isticanje predaka i merge-basea dvaju commitova
-- [ ] prikaz objekata ispod commita (commit → tree → blob)
-- [ ] animacija rebasea i cherry-picka
+- čitanje grafa commitova iz `.git` direktorija
+- slojeviti raspored (Sugiyamin okvir)
+- isticanje predaka i merge-basea dvaju commitova
+- prikaz objekata ispod commita (commit -> tree -> blob)
+- animacija rebasea i cherry-picka
 
 ## Tim
 
